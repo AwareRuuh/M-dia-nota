@@ -18,7 +18,7 @@ nome = sc1.nextLine();
      total += notas;
      if (notas > maior) {
       maior = notas;
-    } else if (notas < menor){
+    } if (notas < menor){
       menor = notas;
   }
 }
